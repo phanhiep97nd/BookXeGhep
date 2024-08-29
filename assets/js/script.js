@@ -39,13 +39,13 @@ window.addEventListener("scroll", function () {
 function changeBaner(item){
   var bannerImg = document.getElementById("BannerImg");
   if(item == "5cho"){
-    bannerImg.style.background = "url('../assets/images/Banner-5cho.gif') no-repeat";
+    bannerImg.style.background = "url('assets/images/Banner-5cho.gif') no-repeat";
   }
   else if(item == "7cho"){
-    bannerImg.style.background = "url('../assets/images/Banner-7cho.gif') no-repeat";
+    bannerImg.style.background = "url('assets/images/Banner-7cho.gif') no-repeat";
   }
   else{
-    bannerImg.style.background = "url('../assets/images/Banner-xeTai.gif') no-repeat";
+    bannerImg.style.background = "url('assets/images/Banner-xeTai.gif') no-repeat";
   }
 }
 

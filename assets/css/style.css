@@ -988,7 +988,7 @@ button, a { transition: var(--transition); }
 
   .hero-form {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 0.8fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 
   .input-wrapper:not(:last-of-type) {
@@ -1054,7 +1054,7 @@ button, a { transition: var(--transition); }
   .social-list { margin-bottom: 0; }
 
   .hero-form {
-    width: 85%;
+    width: 90%;
   }
 
 }
